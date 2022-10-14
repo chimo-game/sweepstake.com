@@ -28,6 +28,8 @@
   --light-gray-1: hsl(0, 0%, 80%);
   --light-gray-2: hsl(0, 2%, 82%);
   --marigold_75: hsla(42, 99%, 46%, 0.75);
+  --create-account: #4caf50;
+  --redeem: #03a9f4;
   --xiketic_90: hsla(280, 37%, 8%, 0.9);
   --cultured-2: hsl(0, 0%, 97%);
   --marigold: hsl(42, 99%, 46%);
@@ -199,8 +201,18 @@ body {
 }
 
 .h3 {
+  display: flex;
   font-size: var(--fs-6);
   text-transform: uppercase;
+}
+
+.shop-card .redeem {
+  color: inherit;
+  padding: 7px;
+  border: 1px solid var(--english-violet);
+  border-radius: 4px;
+  background-color: var(--redeem);
+  transition: var(--transition);
 }
 
 :is(.h1, .h2, .h3, .card-price) .span {
@@ -300,6 +312,7 @@ body {
 }
 
 .card-banner {
+  border-radius: 50px;
   background-color: var(--light-gray-1);
 }
 
@@ -856,7 +869,7 @@ body {
 
 .shop-card {
   box-shadow: var(--shadow-4);
-  height: 100%;
+  /* height: 100%; */
 }
 
 .shop-card .card-content {
@@ -889,6 +902,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--marigold);
+}
+
+.card-wrapper a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--marigold);
+}
+.card-wrapper span {
+  font-size: small;
   color: var(--marigold);
 }
 
