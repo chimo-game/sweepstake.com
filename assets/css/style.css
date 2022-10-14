@@ -206,15 +206,6 @@ body {
   text-transform: uppercase;
 }
 
-.shop-card .redeem {
-  color: inherit;
-  padding: 7px;
-  border: 1px solid var(--english-violet);
-  border-radius: 4px;
-  background-color: var(--redeem);
-  transition: var(--transition);
-}
-
 :is(.h1, .h2, .h3, .card-price) .span {
   display: inline-block;
   color: var(--marigold);
@@ -264,6 +255,7 @@ body {
   display: flex;
   gap: 30px;
   overflow-x: auto;
+  margin: 32px;
   padding-block-end: 30px;
   scroll-snap-type: inline mandatory;
 }
@@ -907,13 +899,17 @@ body {
 
 .card-wrapper a {
   display: flex;
+  color: var(--white);
   justify-content: space-between;
   align-items: center;
-  color: var(--marigold);
 }
-.card-wrapper span {
-  font-size: small;
-  color: var(--marigold);
+
+.card-wrapper a {
+  background-color: var(--create-account);
+}
+.card-wrapper .btn-redeem {
+  color: var(--white);
+  background-color: var(--redeem);
 }
 
 .shop-card .card-price {
@@ -922,7 +918,6 @@ body {
 }
 
 .shop-card .card-btn {
-  color: inherit;
   font-size: 18px;
   padding: 7px;
   border: 1px solid var(--english-violet);
