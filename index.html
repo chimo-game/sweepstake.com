@@ -67,12 +67,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- 
-    - preload images
-  -->
+
+
   </head>
 
   <body id="top">
+
+    <div class="overlay" data-overlay></div>
+
+    <!--
+    - MODAL
+  -->
+
+    <div class="modal" data-modal>
+
+      <div class="modal-close-overlay" data-modal-overlay></div>
+
+      <div class="modal-content">
+
+        <button class="modal-close-btn" data-modal-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="newsletter-img">
+          <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+        </div>
+
+        <div class="newsletter">
+
+          <form action="#">
+
+            <div class="newsletter-header">
+
+              <h3 class="newsletter-title">Join our Facebook group for bonus.</h3>
+
+              <p class="newsletter-desc">
+                <a href="https://web.facebook.com/groups/1319408778857812">Click here!</a>
+              </p>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -249,74 +291,6 @@
 
           </div>
         </section>
-
-
-
-
-
-        <!-- 
-        - #BRAND
-      -->
-
-        <!-- <section class="section brand" aria-label="brand">
-          <div class="container">
-
-            <ul class="has-scrollbar">
-
-              <li class="brand-item">
-                <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
-              </li>
-
-              <li class="brand-item">
-                <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
-              </li>
-
-              <li class="brand-item">
-                <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
-              </li>
-
-              <li class="brand-item">
-                <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
-              </li>
-
-              <li class="brand-item">
-                <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
-              </li>
-
-              <li class="brand-item">
-                <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
-              </li>
-
-            </ul>
-
-          </div>
-        </section> -->
-
-
-
-
-
-
-
-
-
-
-
-        <!-- 
-        - #FEATURED GAME
-      -->
-
-        <!-- <section class="section featured-game" id="features" aria-label="featured game">
-          <div class="container">
-            <video width="100%" height="200px" controls="controls" />
-            <source src="assets/video/Project Name.gif" type="video/mp4">
-            </video>
-
-        </section> --> -->
-
-
-
-
 
         <!-- 
         - #SHOP
