@@ -925,6 +925,11 @@ body {
 .card-wrapper a {
   background-color: var(--create-account);
 }
+
+a.card-btn.btn-star {
+  background: none;
+}
+
 .card-wrapper .btn-redeem {
   color: var(--white);
   background-color: var(--redeem);
