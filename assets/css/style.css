@@ -573,6 +573,10 @@ span {
   line-height: 1;
 }
 
+h3.newsletter-title {
+  line-height: 1.2;
+}
+
 .h1 {
   font-size: var(--fs-2);
   letter-spacing: -3px;
