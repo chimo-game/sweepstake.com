@@ -522,6 +522,16 @@ body {
   line-height: 1.6;
 }
 
+.newsletter-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  padding: 4px;
+}
+
 .email-field {
   font-size: var(--fs-7);
   padding: 8px 16px;
