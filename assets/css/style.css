@@ -1308,6 +1308,10 @@ h3.newsletter-title {
   align-items: center;
 }
 
+.pinterest {
+  visibility: hidden;
+}
+
 .card-wrapper a {
   background-color: var(--create-account);
 }
