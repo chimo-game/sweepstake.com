@@ -50,7 +50,7 @@
   --ff-poppins: "Poppins", sans-serif;
 
   --fs-1: 7rem;
-  --fs-2: 4.5rem;
+  --fs-2: 4rem;
   --fs-3: 3.6rem;
   --fs-4: 2.4rem;
   --fs-5: 2.2rem;
@@ -566,7 +566,8 @@ span {
 
 .h1,
 .h2,
-.h3 {
+.h3,
+.h4 {
   color: var(--white);
   font-family: var(--ff-oxanium);
   font-weight: var(--fw-800);
@@ -589,6 +590,14 @@ h3.newsletter-title {
 .h3 {
   display: flex;
   font-size: var(--fs-6);
+  text-transform: uppercase;
+}
+
+.h4 {
+  text-align: center;
+  padding: 10px;
+  margin: 1rem;
+  font-size: var(--fs-7);
   text-transform: uppercase;
 }
 
@@ -697,7 +706,7 @@ h3.newsletter-title {
 .section-title::after {
   content: url("../images/title-underline.png");
   position: absolute;
-  top: 100%;
+  top: 200%;
   left: 50%;
   transform: translateX(-50%);
 }

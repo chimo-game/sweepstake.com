@@ -2,6 +2,7 @@
     --color-blue: #4CAF50;
     --color-white: #fff;
     --curve: cubic-bezier(0.420, 0.000, 0.275, 1.155);
+    --ff-poppins: "Poppins", sans-serif;
   }
 
   @mixin size($size) {
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-white);
+    font-family: var(--ff-poppins);
   }
 
   .star {

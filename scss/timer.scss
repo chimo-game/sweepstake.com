@@ -1,0 +1,27 @@
+:root{
+    --fs-11: 1.2rem;
+}
+  
+ul#countdown {
+    display: flex;
+  border-width: 1px 0;
+  overflow: hidden;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  
+  li {
+    margin: 0 -3px 0 0;
+    padding: 0;
+    display: inline-block;
+    color: #ffffff;
+    width: 25%;
+    font-size: var(--fs-11);
+    text-align: center;
+    
+    .label {
+      color: #ffffff;
+      font-size: var(--fs-11);
+      text-transform: uppercase;
+    }
+  }
+}
