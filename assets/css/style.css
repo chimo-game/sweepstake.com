@@ -593,6 +593,20 @@ h3.newsletter-title {
   text-transform: uppercase;
 }
 
+.section-subtitle,
+.freeplay {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.freeplay {
+  color: var(--silver);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+  margin-block-end: 10px;
+}
+
 .h4 {
   text-align: center;
   padding: 10px;
@@ -706,7 +720,7 @@ h3.newsletter-title {
 .section-title::after {
   content: url("../images/title-underline.png");
   position: absolute;
-  top: 200%;
+  top: 350%;
   left: 50%;
   transform: translateX(-50%);
 }
