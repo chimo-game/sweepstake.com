@@ -98,7 +98,7 @@ body {
 }
 .checkmark__background {
   fill: var(--color-blue);
-  animation: rotate 35s linear both infinite;
+  animation: rotate 5s linear both infinite;
 }
 
 @keyframes rotate {
