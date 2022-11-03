@@ -7,3 +7,5 @@ const toastCloseBtn = document.querySelector('[data-toast-close]');
 toastCloseBtn.addEventListener('click', function () {
     notificationToast.classList.add('closed');
 });
+
+document.getElementById("number").innerHTML = Math.random();

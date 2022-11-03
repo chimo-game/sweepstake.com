@@ -9,6 +9,9 @@ toastCloseBtn.addEventListener('click', function () {
   notificationToast.classList.add('closed');
 });
 
+let x = Math.floor((Math.random() * 4) + 1);
+document.getElementById("number").innerHTML = x;
+
 
 // modal variables
 const modal = document.querySelector('[data-modal]');
