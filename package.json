@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "vuesax": "^3.12.2"
   }
 }
