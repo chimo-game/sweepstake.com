@@ -95,9 +95,9 @@ form .input-field {
   width: 100%;
   outline: none;
   border: none;
-  border-radius: 8px;
+  border-radius: 50px;
   margin-top: 10px;
-  padding: 4px 4px;
+  padding: 10px 10px;
   border: 1px solid #d1d1d1;
 }
 .invalid input {
@@ -138,6 +138,7 @@ form .input-field {
   margin: 25px 0 6px;
 } */
 .button input {
+  padding: 0;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -149,30 +150,17 @@ form .input-field {
   background-color: var(--color-acent);
 }
 
-#message {
-  overflow: hidden;
-  box-sizing: border-box;
-  border-radius: 8px;
-  outline: none;
-  position: relative;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 20px;
-  max-width: 561px;
-  border: 1px solid rgb(209, 209, 209);
-  height: 8px;
-}
-
 .field-promo {
   display: flex;
 }
 
-#promo {
+#promo-code {
   overflow: hidden;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 50px;
   outline: none;
   position: relative;
+  padding: 10px;
   display: flex;
   margin-top: 10px;
   max-width: 561px;
