@@ -183,7 +183,7 @@ body {
 
 .notification-toast {
   position: fixed;
-  bottom: 220px;
+  bottom: 240px;
   left: 20px;
   right: 20px;
   background: var(--white);
