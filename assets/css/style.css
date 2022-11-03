@@ -183,12 +183,12 @@ body {
 
 .notification-toast {
   position: fixed;
-  bottom: 240px;
+  bottom: 260px;
   left: 20px;
   right: 20px;
   background: var(--white);
   max-width: 300px;
-  max-height: 140px;
+  max-height: 150px;
   display: flex;
   align-items: flex-start;
   gap: 15px;
@@ -207,7 +207,6 @@ body {
   right: 20px;
   background: var(--white);
   max-width: 300px;
-  max-height: 140px;
   display: flex;
   align-items: flex-start;
   gap: 15px;
