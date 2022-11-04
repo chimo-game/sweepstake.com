@@ -53,6 +53,24 @@ body {
   z-index: 5;
   animation: slideInOut 15s ease-in-out;
 }
+.notification-toast2 {
+  position: fixed;
+  bottom: 150px;
+  left: 20px;
+  right: 20px;
+  background: var(--color-white);
+  max-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  border-radius: var(--border-radius-md);
+  box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+  transform: translateX(calc(-100% - 40px));
+  transition: 0.5s ease-in-out;
+  z-index: 5;
+  animation: slideInOut 16s ease-in-out;
+}
 
 @keyframes slideInOut {
   0%,
