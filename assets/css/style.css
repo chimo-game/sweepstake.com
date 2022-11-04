@@ -60,6 +60,8 @@
   --fs-9: 1.4rem;
   --fs-10: 1.3rem;
   --fs-11: 1.2rem;
+  --fs-12: 1rem;
+  --fs-13: 0.6rem;
 
   --fw-500: 500;
   --fw-600: 600;
@@ -183,11 +185,11 @@ body {
 
 .notification-toast {
   position: fixed;
-  bottom: 260px;
+  bottom: 200px;
   left: 20px;
   right: 20px;
   background: var(--white);
-  max-width: 300px;
+  max-width: 250px;
   max-height: 150px;
   display: flex;
   align-items: flex-start;
@@ -202,7 +204,7 @@ body {
 }
 .notification-toast2 {
   position: fixed;
-  bottom: 80px;
+  bottom: 60px;
   left: 20px;
   right: 20px;
   background: var(--white);
@@ -271,7 +273,7 @@ body {
 }
 
 .toast-message {
-  font-size: var(--fs-10);
+  font-size: var(--fs-12);
   color: var(--sonic-silver);
   margin-bottom: 8px;
 }
@@ -798,7 +800,7 @@ h3.newsletter-title {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  height: 10px;
+  height: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -1083,7 +1085,7 @@ h3.newsletter-title {
 
 .hero {
   /* --section-padding: 60px; */
-  margin-block-start: 84px;
+  /* margin-block-start: 84px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

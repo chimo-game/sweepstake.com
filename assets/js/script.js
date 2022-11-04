@@ -11,14 +11,17 @@ toastCloseBtn.addEventListener('click', function () {
 
 // this script below i found by myself
 
-let x = Math.floor((Math.random() * 4) + 1);
-document.getElementById("number").innerHTML = x;
+let time = Math.round((Math.random()) + 2);
+document.getElementById("time").innerHTML = time + ' Minutes ago';
+let time2 = Math.round((Math.random()) + 2);
+document.getElementById("time2").innerHTML = time2 + ' Minutes ago';
 
-let y = Math.floor((Math.random() * 2) + 1);
-document.getElementById("d").innerHTML = y + '$';
+let d = Math.round((Math.random() * 50) + 2);
+document.getElementById("dollar").innerHTML = '$' + d;
 
-let z = Math.floor((Math.random() * 4) + 1);
-document.getElementById("d2").innerHTML = z + '$';
+let d2 = Math.round((Math.random() * 50) + 2);
+document.getElementById("dollar2").innerHTML = '$' + d2;
+
 
 
 // modal variables
