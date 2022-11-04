@@ -13,14 +13,21 @@ toastCloseBtn.addEventListener('click', function () {
 
 let time = Math.round((Math.random()) + 2);
 document.getElementById("time").innerHTML = time + ' Minutes ago';
+
 let time2 = Math.round((Math.random()) + 2);
 document.getElementById("time2").innerHTML = time2 + ' Minutes ago';
+
+let time3 = Math.round((Math.random()) + 2);
+document.getElementById("time3").innerHTML = time3 + ' Minutes ago';
 
 let d = Math.round((Math.random() * 50) + 2);
 document.getElementById("dollar").innerHTML = '$' + d;
 
 let d2 = Math.round((Math.random() * 50) + 2);
 document.getElementById("dollar2").innerHTML = '$' + d2;
+
+let d3 = Math.round((Math.random() * 50) + 2);
+document.getElementById("dollar3").innerHTML = '$' + d3;
 
 
 
