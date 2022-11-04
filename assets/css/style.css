@@ -221,7 +221,27 @@ body {
   z-index: 5;
   animation: slideInOut 15s ease-in-out;
 }
+
 .notification-toast3 {
+  position: fixed;
+  bottom: 350px;
+  left: 20px;
+  right: 20px;
+  background: var(--white);
+  max-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  border-radius: var(--border-radius-md);
+  box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+  transform: translateX(calc(-100% - 40px));
+  transition: 0.5s ease-in-out;
+  z-index: 5;
+  animation: slideInOut 20s ease-in-out;
+}
+
+.notification-toast4 {
   position: fixed;
   bottom: 350px;
   left: 20px;

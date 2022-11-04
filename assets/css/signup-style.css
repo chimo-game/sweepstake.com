@@ -51,7 +51,7 @@ body {
   transform: translateX(calc(-100% - 40px));
   transition: 0.5s ease-in-out;
   z-index: 5;
-  animation: slideInOut 15s ease-in-out infinite;
+  animation: slideInOut 15s ease-in-out;
 }
 
 @keyframes slideInOut {
