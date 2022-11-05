@@ -2,6 +2,8 @@
   #style.css
 \*-----------------------------------*/
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
 /**
  * copyright 2022 codewithsadee
  */
@@ -164,7 +166,6 @@ address {
 }
 
 html {
-  font-family: var(--ff-poppins);
   font-size: 10px;
   scroll-behavior: smooth;
 }
@@ -172,6 +173,7 @@ html {
 body {
   background-color: var(--raisin-black-3);
   font-size: 1.6rem;
+  font-family: var(--ff-poppins);
   line-height: 1.5;
 }
 
