@@ -1136,7 +1136,7 @@ h3.newsletter-title {
 
 .hero-subtitle {
   color: var(--marigold);
-  font-size: var(--fs-6);
+  font-size: var(--fs-8);
   font-weight: var(--fw-700);
   text-transform: uppercase;
 }
@@ -2112,9 +2112,18 @@ a ion-icon.star {
   }
 
   .countdown-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     color: var(--quick-silver);
     font-size: var(--fs-10);
     font-weight: var(--fw-600);
+  }
+
+  .flag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .countdown-text .span {
