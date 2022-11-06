@@ -227,7 +227,7 @@ form .input-field {
   align-items: center;
   margin-top: -7px;
   color: #d93025;
-  font-size: 13px;
+  font-size: 10px;
   display: none;
 }
 .invalid .error {
