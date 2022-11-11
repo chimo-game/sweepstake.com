@@ -21,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: rgb(0, 0, 0);
   background-image: url("https://images.unsplash.com/photo-1491644386567-d98960637850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,18 +141,19 @@ body {
 }
 
 .container {
-  filter: drop-shadow(0px 0px 25px #68c21a);
+  border: 4px #68c21a solid;
+  /* filter: drop-shadow(1px 1px 1px 1px #68c21a); */
   animation: anim 1s infinite linear alternate;
 }
 
-@keyframes anim {
+/* @keyframes anim {
   from {
     filter: drop-shadow(1px 1px 20px rbga(201, 13, 13, 1));
   }
   to {
     filter: drop-shadow(0px 5px 0px #68c21a);
   }
-}
+} */
 
 .slider-image-wrapper {
   height: 130px;

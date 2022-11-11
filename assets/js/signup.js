@@ -4,7 +4,24 @@ const form = document.querySelector("form"),
     passField = form.querySelector(".create-password"),
     passInput = passField.querySelector(".password"),
     cPassField = form.querySelector(".confirm-password"),
-    cPassInput = cPassField.querySelector(".cPassword");
+    cPassInput = cPassField.querySelector(".cPassword"),
+
+    claimField = form.querySelector(".claim-field"),
+    claimInput = claimField.querySelector(".claim")
+
+
+
+function validateUsername() {
+
+    if (claimInput.value == '') {
+        // alert("Please input a Value");
+        // return false;
+
+        return claimField.classList.add("invalid");
+    }
+    claimField.classList.remove("invalid");
+
+}
 
 // Email Validtion
 function checkEmail() {
@@ -51,11 +68,13 @@ function confirmPass() {
 // Calling Funtion on Form Sumbit
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //preventing form submitting
+    validateUsername();
     checkEmail();
     createPass();
     confirmPass();
 
     //calling function on key up
+    emailInput.addEventListener("keyup", validateUsername);
     emailInput.addEventListener("keyup", checkEmail);
     passInput.addEventListener("keyup", createPass);
     cPassInput.addEventListener("keyup", confirmPass);

@@ -18,9 +18,9 @@
    */
 
   --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
-  --raisin-black-1: hsl(0, 0%, 16%);
+  --raisin-black-1: hsl(0, 0%, 0%);
   --raisin-black-2: hsl(236, 17%, 17%);
-  --raisin-black-3: hsl(280, 11%, 11%);
+  --raisin-black-3: #0074a9;
   --raisin-black-4: hsl(280, 8%, 15%);
   --english-violet: hsl(274, 21%, 23%);
   --eerie-black-1: hsl(277, 25%, 10%);
@@ -833,14 +833,17 @@ h3.newsletter-title {
 
 .has-scrollbar {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
-  overflow-x: auto;
-  margin: 32px;
+  /*overflow-x: auto;
+  margin: 32px; */
   /* padding-block-end: 30px; */
-  scroll-snap-type: inline mandatory;
+  /* scroll-snap-type: inline mandatory; */
 }
 
-.has-scrollbar::-webkit-scrollbar {
+/* .has-scrollbar::-webkit-scrollbar {
   height: 5px;
 }
 
@@ -854,7 +857,7 @@ h3.newsletter-title {
 
 .has-scrollbar::-webkit-scrollbar-button {
   width: calc(25% - 40px);
-}
+} */
 
 .section-subtitle,
 .section-title {
@@ -885,7 +888,7 @@ h3.newsletter-title {
 
 .card-banner {
   border-radius: 50px;
-  background-color: var(--light-gray-1);
+  /* background-color: var(--light-gray-1); */
 }
 
 .img-holder {
@@ -1161,13 +1164,13 @@ h3.newsletter-title {
   background-image: var(--gradient);
 }
 
-.brand .has-scrollbar {
+/* .brand .has-scrollbar {
   padding-block-end: 0;
 }
 
 .brand .has-scrollbar::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .brand-item {
   min-width: calc(50% - 10px);
@@ -1206,11 +1209,11 @@ h3.newsletter-title {
   margin-block-end: 80px;
 }
 
-.latest-game .has-scrollbar {
+/* .latest-game .has-scrollbar {
   margin-inline: -15px;
   padding-inline: 15px;
   scroll-padding-inline-start: 15px;
-}
+} */
 
 .latest-game-card {
   position: relative;
@@ -1345,9 +1348,9 @@ h3.newsletter-title {
   margin-block-end: 90px;
 }
 
-.featured-game .has-scrollbar {
+/* .featured-game .has-scrollbar {
   gap: 0;
-}
+} */
 
 .featured-game-card {
   position: relative;
@@ -1433,11 +1436,11 @@ h3.newsletter-title {
   margin-block: 50px 60px;
 }
 
-.shop .has-scrollbar {
+/* .shop .has-scrollbar {
   margin-inline: -15px;
   padding-inline: 15px;
   scroll-padding-inline-start: 15px;
-}
+} */
 
 .shop-card {
   box-shadow: var(--shadow-4);
@@ -2254,9 +2257,9 @@ a ion-icon.star {
    * LATEST GAME
    */
 
-  .latest-game .has-scrollbar {
+  /* .latest-game .has-scrollbar {
     padding-block-end: 0;
-  }
+  } */
 
   /**
    * LIVE MATCH
@@ -2383,9 +2386,9 @@ a ion-icon.star {
    * FEATURED GAME
    */
 
-  .featured-game .has-scrollbar {
+  /* .featured-game .has-scrollbar {
     padding-block-end: 0;
-  }
+  } */
 
   .featured-game .scrollbar-item {
     min-width: 25%;
@@ -2394,10 +2397,10 @@ a ion-icon.star {
   /**
    * SHOP
    */
-
+  /* 
   .shop .has-scrollbar {
     padding-block-end: 15px;
-  }
+  } */
 
   /**
    * NEWSLETTER
