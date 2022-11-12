@@ -1,0 +1,301 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga", "kern";
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1dd2af;
+  background: linear-gradient(-150deg, #3b91e7, #9041f0);
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.congrate {
+  display: inline-block;
+  color: #F04151;
+  font-size: 2.2vh;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin: 4rem;
+}
+
+.container {
+  position: relative;
+  height: 50%;
+  width: 50vh;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(25, 25, 25, 0.25);
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+  17.5% {
+    transform: scale(0.5);
+  }
+}
+#Heart_2_ {
+  cursor: pointer;
+  will-change: transform;
+  transform-origin: 50% 50%;
+  animation: heart 1.8s cubic-bezier(0.17, 0.89, 0.32, 1.49);
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+#Thanks {
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #13414c;
+  font-size: 2vh;
+  transform: translate3d(0, 100%, 0);
+  opacity: 0;
+  animation: fadeInDown 1s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+
+#subtitle {
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #13414c;
+  font-size: 1.4vh;
+  transform: translate3d(0, 100%, 0);
+  opacity: 0;
+  animation: fadeInDown 1.5s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+
+@keyframes bubble {
+  0%, 100% {
+    transform: scale(0);
+    opacity: 0;
+    stroke-width: 0;
+    stroke: rgba(233, 172, 193, 0);
+  }
+  15% {
+    fill: #E9ACC1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+    stroke: #E9ACC1;
+    stroke-width: 6;
+  }
+  100% {
+    fill: rgba(233, 172, 193, 0);
+  }
+}
+#Circle {
+  fill: #E9ACC1;
+  will-change: transform;
+  transform: scale(0);
+  transform-origin: 50% 50%;
+  animation: bubble 1.8s cubic-bezier(0.21, 0.61, 0.35, 1);
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes particle {
+  0%, 100% {
+    opacity: 0;
+  }
+  40% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) scale(0);
+  }
+}
+[id*=Particle] {
+  will-change: transform;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+  opacity: 0;
+  animation: particle 2.7s cubic-bezier(0.21, 0.61, 0.35, 1);
+  animation-fill-mode: forwards;
+  animation-delay: 0.45s;
+}
+
+[id*=Particle]:nth-child(1) {
+  animation-duration: 1178ms;
+}
+
+[id*=Particle]:nth-child(2) {
+  animation-duration: 1895ms;
+}
+
+[id*=Particle]:nth-child(3) {
+  animation-duration: 1550ms;
+}
+
+[id*=Particle]:nth-child(4) {
+  animation-duration: 1845ms;
+}
+
+[id*=Particle]:nth-child(5) {
+  animation-duration: 1430ms;
+}
+
+[id*=Particle]:nth-child(6) {
+  animation-duration: 1701ms;
+}
+
+[id*=Particle]:nth-child(7) {
+  animation-duration: 1403ms;
+}
+
+[id*=Particle]:nth-child(8) {
+  animation-duration: 1427ms;
+}
+
+[id*=Particle]:nth-child(9) {
+  animation-duration: 1089ms;
+}
+
+[id*=Particle]:nth-child(10) {
+  animation-duration: 1066ms;
+}
+
+[id*=Particle]:nth-child(11) {
+  animation-duration: 1970ms;
+}
+
+[id*=Particle]:nth-child(12) {
+  animation-duration: 1324ms;
+}
+
+[id*=Particle]:nth-child(13) {
+  animation-duration: 1689ms;
+}
+
+[id*=Particle]:nth-child(14) {
+  animation-duration: 1810ms;
+}
+
+[id*=Particle]:nth-child(15) {
+  animation-duration: 1105ms;
+}
+
+[id*=Particle]:nth-child(16) {
+  animation-duration: 1048ms;
+}
+
+[id*=Particle]:nth-child(17) {
+  animation-duration: 1403ms;
+}
+
+[id*=Particle]:nth-child(18) {
+  animation-duration: 1963ms;
+}
+
+[id*=Particle]:nth-child(1) {
+  transform: translate(500%, 500%) scale(0);
+}
+
+[id*=Particle]:nth-child(2) {
+  transform: translate(250%, 500%) scale(0);
+}
+
+[id*=Particle]:nth-child(3) {
+  transform: translate(0, 500%) scale(0);
+}
+
+[id*=Particle]:nth-child(4) {
+  transform: translate(-250%, 500%) scale(0);
+}
+
+[id*=Particle]:nth-child(5) {
+  transform: translate(-500%, 500%) scale(0);
+}
+
+[id*=Particle]:nth-child(6) {
+  transform: translate(-500%, 250%) scale(0);
+}
+
+[id*=Particle]:nth-child(7) {
+  transform: translate(-500%, 0%) scale(0);
+}
+
+[id*=Particle]:nth-child(8) {
+  transform: translate(-500%, -250%) scale(0);
+}
+
+[id*=Particle]:nth-child(9) {
+  transform: translate(-500%, -500%) scale(0);
+}
+
+[id*=Particle]:nth-child(10) {
+  transform: translate(-250%, -500%) scale(0);
+}
+
+[id*=Particle]:nth-child(11) {
+  transform: translate(0%, -500%) scale(0);
+}
+
+[id*=Particle]:nth-child(12) {
+  transform: translate(250%, -500%) scale(0);
+}
+
+[id*=Particle]:nth-child(13) {
+  transform: translate(500%, -500%) scale(0);
+}
+
+[id*=Particle]:nth-child(14) {
+  transform: translate(500%, -250%) scale(0);
+}
+
+[id*=Particle]:nth-child(15) {
+  transform: translate(500%, 0%) scale(0);
+}
+
+[id*=Particle]:nth-child(16) {
+  transform: translate(500%, 250%) scale(0);
+}
+
+[id*=Particle]:nth-child(17) {
+  transform: translate(500%, 500%) scale(0);
+}
+
+[id*=Particle]:nth-child(18) {
+  transform: translate(500%, 500%) scale(0);
+}
+
+/*# sourceMappingURL=succesfull.css.map */
