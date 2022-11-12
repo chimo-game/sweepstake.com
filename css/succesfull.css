@@ -29,7 +29,7 @@ svg {
 
 .congrate {
   display: inline-block;
-  color: #F04151;
+  color: #4caf50;
   font-size: 2.2vh;
 }
 
@@ -155,75 +155,75 @@ svg {
 }
 
 [id*=Particle]:nth-child(1) {
-  animation-duration: 1178ms;
+  animation-duration: 1979ms;
 }
 
 [id*=Particle]:nth-child(2) {
-  animation-duration: 1895ms;
+  animation-duration: 1112ms;
 }
 
 [id*=Particle]:nth-child(3) {
-  animation-duration: 1550ms;
+  animation-duration: 2000ms;
 }
 
 [id*=Particle]:nth-child(4) {
-  animation-duration: 1845ms;
+  animation-duration: 1139ms;
 }
 
 [id*=Particle]:nth-child(5) {
-  animation-duration: 1430ms;
+  animation-duration: 1580ms;
 }
 
 [id*=Particle]:nth-child(6) {
-  animation-duration: 1701ms;
+  animation-duration: 1199ms;
 }
 
 [id*=Particle]:nth-child(7) {
-  animation-duration: 1403ms;
+  animation-duration: 1811ms;
 }
 
 [id*=Particle]:nth-child(8) {
-  animation-duration: 1427ms;
+  animation-duration: 1934ms;
 }
 
 [id*=Particle]:nth-child(9) {
-  animation-duration: 1089ms;
+  animation-duration: 1454ms;
 }
 
 [id*=Particle]:nth-child(10) {
-  animation-duration: 1066ms;
+  animation-duration: 1790ms;
 }
 
 [id*=Particle]:nth-child(11) {
-  animation-duration: 1970ms;
+  animation-duration: 1307ms;
 }
 
 [id*=Particle]:nth-child(12) {
-  animation-duration: 1324ms;
+  animation-duration: 1303ms;
 }
 
 [id*=Particle]:nth-child(13) {
-  animation-duration: 1689ms;
+  animation-duration: 1943ms;
 }
 
 [id*=Particle]:nth-child(14) {
-  animation-duration: 1810ms;
+  animation-duration: 1363ms;
 }
 
 [id*=Particle]:nth-child(15) {
-  animation-duration: 1105ms;
+  animation-duration: 1655ms;
 }
 
 [id*=Particle]:nth-child(16) {
-  animation-duration: 1048ms;
+  animation-duration: 1491ms;
 }
 
 [id*=Particle]:nth-child(17) {
-  animation-duration: 1403ms;
+  animation-duration: 1212ms;
 }
 
 [id*=Particle]:nth-child(18) {
-  animation-duration: 1963ms;
+  animation-duration: 1999ms;
 }
 
 [id*=Particle]:nth-child(1) {
