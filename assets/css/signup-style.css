@@ -4,8 +4,8 @@
 
   --fs-1: 7rem;
 
-  --color-green: #53c357;
-  --color-acent: #4caf50;
+  --color-green: #4ada98;
+  --color-acent: #4dd89e;
   --color-white: #fff;
   --curve: cubic-bezier(0.42, 0, 0.275, 1.155);
 }
@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  background-image: url("https://images.pexels.com/photos/5200063/pexels-photo-5200063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("/assets/images/gradient1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 200ms linear;
@@ -141,7 +141,7 @@ body {
 }
 
 .container {
-  border: 4px #68c21a solid;
+  border: 4px var(--color-green) solid;
   /* filter: drop-shadow(1px 1px 1px 1px #68c21a); */
   animation: anim 1s infinite linear alternate;
 }
