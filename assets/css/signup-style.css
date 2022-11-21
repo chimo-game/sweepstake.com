@@ -199,18 +199,17 @@ header span {
 
 form .input-field {
   position: relative;
-  height: 55px;
+  height: 50px;
   width: 100%;
 }
 .input-field input {
   height: 70%;
   width: 100%;
   outline: none;
-  border: none;
   border-radius: 50px;
   margin-top: 10px;
   padding: 10px 10px;
-  border: 1px solid #d1d1d1;
+  border: 2px solid var(--color-green);
 }
 .invalid input {
   border-color: #d93025;
