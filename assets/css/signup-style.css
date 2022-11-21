@@ -142,18 +142,18 @@ body {
 
 .container {
   border: 2px var(--color-green) solid;
-  /* filter: drop-shadow(1px 1px 1px 1px #68c21a); */
-  animation: anim 1s infinite linear alternate;
+  filter: drop-shadow(1px 1px 1px 1px var(--color-green));
+  animation: anim 2s infinite linear alternate;
 }
 
-/* @keyframes anim {
+@keyframes anim {
   from {
-    filter: drop-shadow(1px 1px 20px rbga(201, 13, 13, 1));
+    filter: drop-shadow(10px 10px 20px #0000);
   }
   to {
-    filter: drop-shadow(0px 5px 0px #68c21a);
+    filter: drop-shadow(10px 10px 40px #0000);
   }
-} */
+}
 
 .slider-image-wrapper {
   display: flex;
