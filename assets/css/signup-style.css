@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  background-image: url("/assets/images/gradient1.jpg");
+  /* background-image: url("/assets/images/gradient1.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 200ms linear;
@@ -141,7 +141,7 @@ body {
 }
 
 .container {
-  border: 4px var(--color-green) solid;
+  border: 2px var(--color-green) solid;
   /* filter: drop-shadow(1px 1px 1px 1px #68c21a); */
   animation: anim 1s infinite linear alternate;
 }
