@@ -19,6 +19,7 @@
 body {
   min-height: 100vh;
   display: flex;
+  color: var(--color-white);
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0);
@@ -182,7 +183,7 @@ label#checkbox {
   width: 100%;
   padding: 8px 25px;
   border-radius: 8px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .container header {
   margin: 4px;
@@ -190,7 +191,7 @@ label#checkbox {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
-  color: #333;
+  color: var(--color-white);
 }
 
 header span {
