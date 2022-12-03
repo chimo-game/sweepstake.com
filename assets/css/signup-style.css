@@ -4,8 +4,8 @@
 
   --fs-1: 7rem;
 
-  --color-green: #97da4a;
-  --color-acent: #97da4a;
+  --color-green: #66c000;
+  --color-acent: #66c000;
   --color-white: #fff;
   --curve: cubic-bezier(0.42, 0, 0.275, 1.155);
 }
@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  background-image: url("/assets/images/fire-kirin-wallpaper-thumb.jpg");
+  background-image: url("/assets/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 200ms linear;
