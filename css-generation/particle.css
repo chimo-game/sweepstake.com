@@ -1,0 +1,58 @@
+body {
+  min-height: 100vh;
+  font-family: "Inter", "Inter UI", Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  perspective: 600px;
+  background: #ECEFFC;
+}
+
+.text {
+  text-align: center;
+}
+.text span {
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  color: #6D58FF;
+  letter-spacing: 0.03em;
+}
+.text span strong {
+  font-weight: 600;
+  color: #1E2235;
+}
+.text small {
+  display: block;
+  color: #A6ACCD;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.confetti {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  z-index: 11;
+  background: var(--color);
+  top: 0;
+  left: 0;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.twitter {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+}
+.twitter svg {
+  width: 32px;
+  height: 32px;
+  fill: #646B8C;
+}
+
+/*# sourceMappingURL=particle.css.map */
